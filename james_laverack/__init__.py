@@ -9,4 +9,8 @@ james_laverack = Blueprint('james_laverack',
 @james_laverack.route('/')
 def index():
     return render_template("index.html",
-                           name = "James Laverack")
+                           name = "James Laverack",
+                           github = "JamesLaverack",
+                           twitter = "JamesLaverack",
+                           email = "james@jameslaverack.com")
+
